@@ -5,7 +5,7 @@ import re
 
 def replace_space(string):
     """Replace all spaces in a word with `%20`."""
-    return re.sub(' ', '%20', string)
+    return re.sub(' ', '-', string)
 
 
 def main():
